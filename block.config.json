@@ -1,0 +1,13 @@
+{
+  "name": "route_test_shared",
+  "type": "shared-fn",
+  "source": {
+    "https": "https://github.com/block-test-org/route_test_shared",
+    "ssh": "git@github.com:block-test-org/route_test_shared.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
